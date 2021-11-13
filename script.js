@@ -19,7 +19,7 @@ document.querySelector(".btn-roll").addEventListener("click", function (){
     //Display the dice
     var diceDOM = document.querySelector(".dice");
     diceDOM.style.display = "block";
-    diceDOM.src = "dice-" + dice + ".png"; //mert deutche precizitattel nevezte el az ikonokat :D
+    diceDOM.src = "dice-" + dice + ".png"; 
 
     //Update the round score if the rolled number is not one
     if (dice !== 1 ){
